@@ -17,15 +17,15 @@ def new(name, artist, genre)
   @@artists << artist
 end
 
-def count
+def self.count
   @@count
 end
 
-def genres
+def self.genres
   @@genres.uniq!
 end
 
-def artists
+def self.artists
   @@artists.uniq!
 end
 end
