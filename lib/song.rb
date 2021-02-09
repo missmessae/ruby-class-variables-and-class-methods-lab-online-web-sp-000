@@ -27,6 +27,6 @@ end
 #We will want to know how many songs of each genre have been created. We'll revisit that job a little later on.
 
 def genres
-
+  @@genres.uniq!
 
 end
