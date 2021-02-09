@@ -7,20 +7,20 @@ attr_accessor :songs, :artists, :genres
 :@@artist_count = {}
 
 def initialize(name, artist, genre)
-  @@songs += 1
-  @@genres << genre
-  @@artists << artist
+  :@@songs += 1
+  :@@genres << genre
+  :@@artists << artist
 end
 
 def count
-  @@count
+  :@@count
 end
 
 def genres
-  @@genres.uniq!
+  :@@genres.uniq!
 end
 
 def artists
-  @@artists.uniq!
+  :@@artists.uniq!
 end
 end
