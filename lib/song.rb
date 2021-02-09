@@ -6,7 +6,7 @@ attr_accessor :songs, :artists, :genres
 :@@genre_count = {}
 :@@artist_count = {}
 
-def initialize(name, artist, genre)
+def new(name, artist, genre)
   @name = name
   @artist = artist
   @genre = genre
